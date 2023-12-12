@@ -25,6 +25,10 @@
     max-width: 470px;
 }
 
+#subtitle {
+    color: #dd00ff;
+}
+
 .menu-icon {
     width: 25px;
     position: absolute;
@@ -84,7 +88,7 @@
 }
 
 .profile-box h3 {
-    font-size: 22px;
+    font-size: 32px;
     margin-top: 20px;
     font-weight: 500;
 }
