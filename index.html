@@ -22,16 +22,30 @@
             <h3>Studio Olvr</h3>
             <p>Designer de Cílios, Belford Roxo</p>
             <div class="social-media">
-                <img src="img/whatsapp.svg">
-                <img src="img/instagram.png">
+                <img src="img/whatsapp.svg" onclick="whatsappRedirect()">
+                <img src="img/instagram.png" onclick="instagramRedirect()">
             </div>
-            <button type="button">Seguir</button>
+            <button type="button" onclick="redirect()">Seguir</button>
             <div class="profile-bottom">
                 <p>Mais sobre o perfil</p>
                 <img src="img/arrow.svg">
             </div>
         </div>
     </div>
+
+    <script>
+        const redirect = () => {
+            window.open("https://www.instagram.com/studio.olvr/", "_blank")
+        }
+
+        const whatsappRedirect = () => {
+            window.open("https://wa.link/jkiw12", "_blank")
+        }
+
+        const instagramRedirect = () => {
+            window.open("https://www.instagram.com/studio.olvr/", "_blank")
+        }
+    </script>
 </body>
 
 </html>
